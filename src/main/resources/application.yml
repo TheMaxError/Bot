@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Bot
+
+  ai:
+    openai:
+      api-key:  #请在此处输入你的chat-gpt apikey
+      base-url:  #设置中转在此写入某个中转网站
+      chat:
+        options:
+          model: gpt-3.5-turbo
+          temperature: 0.3F
